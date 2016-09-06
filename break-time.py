@@ -10,9 +10,10 @@ break_count = 0
 total_breaks = 3
 break_length = 10
 link_video = "https://youtu.be/PT2_F-1esPk?t=10s"
+begin_msg = "Hello, today is "
 
-print("You have strarted the program on "+time.ctime())
+print(begin_msg+time.ctime())
 while (break_count < total_breaks):
     time.sleep(break_length)
     webbrowser.open(link_video)
-    break_count = break_count + 1
+    break_count = break_count + 1 
