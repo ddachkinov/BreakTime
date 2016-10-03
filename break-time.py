@@ -8,7 +8,7 @@ import time
 break_count = 0
 # update your preferred values below
 total_breaks = 3
-break_length = 10
+break_length = 20*60
 link_video = "https://youtu.be/PT2_F-1esPk?t=10s"
 begin_msg = "Hello, today is "
 
